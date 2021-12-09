@@ -1,6 +1,7 @@
 export default function Nav(props) {
     return(
         <nav>
+            ?
             <form onSubmit={props.loginUser}>
                 <strong>Login </strong>
                 <label htmlFor="name">Username: </label>
@@ -18,6 +19,7 @@ export default function Nav(props) {
                 <input type="password" id="password" name="password"/>
                 <input type="submit" value="signup" />
             </form>
+            :
             <button onClick={props.logout}>log out</button>
         </nav>
     )
