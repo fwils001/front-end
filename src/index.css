@@ -1,7 +1,7 @@
 body {
     margin: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white
+    color: white;
   }
   
   nav {
@@ -69,7 +69,7 @@ img {
 }
 #bone {
   margin-left: 800px;
-  margin-bottom: 500px;
+  margin-bottom: 600px;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -89,3 +89,16 @@ img {
 #footer {
   margin-left: 450px;
 }
+#portrait {
+    color: white;
+    font-size:large;
+    margin-left:820px;
+}
+
+#grieving {
+  color: white;
+  margin-left: 800px;
+  font-size:large;
+  padding: 45px;
+}
+
