@@ -1,7 +1,11 @@
+// import { render } from "react-dom"
+
 export default function Nav(props) {
+    console.log(props)
     return(
         <nav>
-            ?
+            {!props.userLoggedIn ?
+            <>
             <form onSubmit={props.loginUser}>
                 <strong>Login </strong>
                 <label htmlFor="name">Username: </label>
@@ -19,7 +23,8 @@ export default function Nav(props) {
                 <input type="password" id="password" name="password"/>
                 <input type="submit" value="signup" />
             </form>
-            :
+            </>
+        : null}
             <button onClick={props.logout}>log out</button>
         </nav>
     )

@@ -192,7 +192,7 @@ class App extends Component {
     return (
       <div className="App">
         
-        <Nav loginUser={this.loginUser} register={this.register} logout={this.logoutUser}/>
+        <Nav userLoggedIn = {this.state.userLoggedIn} loginUser={this.loginUser} register={this.register} logout={this.logoutUser}/>
         <div id="dogsandcats">
       <img src="https://imgur.com/fyLNPq3.jpg" alt="pets"/>
       </div>
